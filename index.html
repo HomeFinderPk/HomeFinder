@@ -1,0 +1,232 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home Finder — Real Estate Rental Agency in Islamabad</title>
+  <meta name="description" content="Home Finder — Trusted property rental partners in Islamabad. Property listings, tenant screening, lease management, property maintenance and more." />
+  <link rel="icon" href="logo.png" />  <!-- Basic styling (clean, professional real-estate palette) -->  <style>
+    :root{
+      --navy:#0b2545;      /* main brand color */
+      --accent:#c59a3b;    /* warm gold accent */
+      --muted:#6b7280;
+      --bg:#f7f9fb;
+      --card:#ffffff;
+      --max-width:1100px;
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:var(--bg);color:#0f1724}
+    a{color:inherit;text-decoration:none}
+
+    .container{max-width:var(--max-width);margin:0 auto;padding:28px}
+
+    header{background:linear-gradient(90deg, rgba(11,37,69,0.98), rgba(11,37,69,0.9));color:#fff;padding:18px 0;border-bottom:4px solid rgba(197,154,59,0.12)}
+    .topbar{display:flex;align-items:center;gap:18px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{height:54px;width:54px;border-radius:8px;object-fit:cover;background:#fff;padding:6px}
+    .brand h1{font-size:20px;margin:0;letter-spacing:0.4px}
+    .brand p{margin:0;font-size:12px;opacity:0.85}
+
+    nav{margin-left:auto;display:flex;gap:18px;align-items:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#071129;font-weight:600}
+    .btn-outline{background:transparent;border:1px solid rgba(255,255,255,0.14);padding:8px 12px;border-radius:10px}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:30px;padding:40px 0;align-items:center}
+    .hero h2{font-size:36px;margin:0 0 12px}
+    .lead{color:var(--muted);font-size:16px;margin-bottom:18px}
+    .contact-cards{display:flex;flex-direction:column;gap:12px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(11,37,69,0.06)}
+
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+    .service{padding:18px;border-radius:10px;background:linear-gradient(180deg, #fff, #fbfbfb);border:1px solid rgba(11,37,69,0.04)}
+
+    section{margin:34px 0}
+    h3{margin:0 0 12px;color:var(--navy)}
+
+    .grid-2{display:grid;grid-template-columns:1fr 420px;gap:20px}
+    .list{display:flex;flex-direction:column;gap:12px}
+
+    footer{padding:22px 0;border-top:1px solid rgba(11,37,69,0.06);color:var(--muted)}
+
+    /* Floating WhatsApp */
+    .whatsapp{position:fixed;right:20px;bottom:20px;z-index:2000}
+    .whatsapp a{display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:999px;background:#25d366;color:white;font-weight:600;box-shadow:0 10px 30px rgba(37,211,102,0.14)}
+
+    /* Responsive */
+    @media (max-width:980px){
+      .hero,.grid-2{grid-template-columns:1fr}
+      nav{display:none}
+      .services{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:520px){
+      .services{grid-template-columns:1fr}
+      .brand h1{font-size:16px}
+      .brand img{height:44px;width:44px}
+    }
+
+    /* Small utilities */
+    .muted{color:var(--muted)}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(11,37,69,0.04);font-weight:600}
+  </style>  <!-- Structured data for local business -->  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Home Finder",
+    "image": "https://your-domain.com/logo.png",
+    "telephone": "+923316196789",
+    "email": "www.homefinderpk@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "D-12 markaz, D-12",
+      "addressLocality": "Islamabad",
+      "postalCode": "45220",
+      "addressCountry": "PK"
+    },
+    "description": "Trusted real estate rental agency in Islamabad offering property listings, tenant screening, lease management and property maintenance."
+  }
+  </script></head>
+<body>  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <img src="logo.png" alt="Home Finder logo" />
+        <div>
+          <h1>Home Finder</h1>
+          <p class="muted">Real Estate Rental Agency — Islamabad</p>
+        </div>
+      </div><nav aria-label="Main navigation">
+    <a class="btn" href="#contact">Contact Us</a>
+    <a class="btn-outline" href="#services">Services</a>
+  </nav>
+</div>
+
+  </header>  <main class="container"><section class="hero">
+  <div>
+    <h2>"Your Trusted Property Rental Partners"</h2>
+    <p class="lead">At <strong>HOME FINDER</strong>, we specialize in connecting property owners with tenants and helping individuals and families find their dream homes. Our experienced team provides personalized rental services, ensuring a seamless and stress-free experience for all parties involved.</p>
+
+    <div class="card">
+      <h3>Why Choose Us?</h3>
+      <ul class="muted">
+        <li>Expert knowledge of local property market</li>
+        <li>Personalized service tailored to your needs</li>
+        <li>Professional and efficient handling of rental process</li>
+        <li>Wide range of properties available for rent</li>
+      </ul>
+    </div>
+
+    <div class="services" id="services">
+      <div class="service">
+        <h4>Property Listing & Marketing</h4>
+        <p class="muted">High-quality listings, photography support and targeted marketing to reach right tenants fast.</p>
+      </div>
+      <div class="service">
+        <h4>Tenant Screening</h4>
+        <p class="muted">Background checks, verification and references to secure responsible tenants.</p>
+      </div>
+      <div class="service">
+        <h4>Lease Management</h4>
+        <p class="muted">Drafting and managing lease agreements, renewals and legal compliance.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <aside>
+    <div class="card contact-cards">
+      <div>
+        <strong>Contact Us</strong>
+        <p class="muted">Phone: <a href="tel:+923316196789">+92 331 6196789</a></p>
+        <p class="muted">Email: <a href="mailto:www.homefinderpk@gmail.com">www.homefinderpk@gmail.com</a></p>
+        <p class="muted">Address: D-12 markaz, D-12, Islamabad, 45220</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <strong>Property Finder</strong>
+      <p class="muted">Tell us what you're looking for and we'll find the best matches from our listings.</p>
+      <p style="margin-top:12px"><a class="btn" href="#contact">Get in touch</a></p>
+    </div>
+  </aside>
+</section>
+
+<section>
+  <div class="grid-2">
+    <div>
+      <h3>Our Services (Full)</h3>
+      <div class="list card">
+        <div>
+          <strong>Property listing and marketing</strong>
+          <p class="muted">Professional listing creation, photography coordination and premium placement.</p>
+        </div>
+        <div>
+          <strong>Tenant screening and verification</strong>
+          <p class="muted">Document verification, reference checks and secure tenant selection.</p>
+        </div>
+        <div>
+          <strong>Lease agreement drafting and management</strong>
+          <p class="muted">Prepare clear lease contracts and handle renewals or terminations as needed.</p>
+        </div>
+        <div>
+          <strong>Property management and maintenance</strong>
+          <p class="muted">Ongoing property checks, repairs coordination and vendor management.</p>
+        </div>
+        <div>
+          <strong>Rent collection and disbursement</strong>
+          <p class="muted">Secure rent collection, invoicing and landlord disbursements.</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card">
+      <h3>Jobs & Rental Types</h3>
+      <p class="muted">We handle a variety of rental needs and can help find tenants or staff for property-related roles.</p>
+      <ul class="muted">
+        <li>Cabin rentals</li>
+        <li>Apartment rentals</li>
+        <li>Furnished property rentals</li>
+        <li>Vacation property rentals</li>
+        <li>Home rentals</li>
+        <li>Short-term property rentals</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h3>Contact & Office Hours</h3>
+    <p class="muted">Office: D-12 markaz, Islamabad. We are available for calls and visits by appointment.</p>
+
+    <p><strong>Phone:</strong> <a href="tel:+923316196789">+92 331 6196789</a></p>
+    <p><strong>Email:</strong> <a href="mailto:www.homefinderpk@gmail.com">www.homefinderpk@gmail.com</a></p>
+
+    <h4 style="margin-top:16px">Send a quick message</h4>
+    <!-- Lightweight contact form: sends email via mailto (simple) -->
+    <form onsubmit="event.preventDefault(); window.location='mailto:www.homefinderpk@gmail.com?subject='+encodeURIComponent(document.getElementById('subject').value)+'&body='+encodeURIComponent(document.getElementById('message').value+'\n\nFrom: '+document.getElementById('name').value+'\nPhone: '+document.getElementById('phone').value);" class="muted">
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <input id="name" placeholder="Your name" style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(11,37,69,0.06)" required>
+        <input id="phone" placeholder="Phone" style="width:200px;padding:10px;border-radius:8px;border:1px solid rgba(11,37,69,0.06)">
+      </div>
+      <input id="subject" placeholder="Subject" style="width:100%;margin-top:12px;padding:10px;border-radius:8px;border:1px solid rgba(11,37,69,0.06)" required>
+      <textarea id="message" placeholder="Message" rows="5" style="width:100%;margin-top:12px;padding:10px;border-radius:8px;border:1px solid rgba(11,37,69,0.06)" required></textarea>
+      <p style="margin-top:12px"><button class="btn" type="submit">Send Message</button></p>
+    </form>
+
+  </div>
+</section>
+
+  </main>  <footer class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div class="muted">© Home Finder — Real Estate Rental Agency, Islamabad</div>
+      <div class="muted">D-12 markaz, Islamabad • <a href="tel:+923316196789">+92 331 6196789</a> • <a href="mailto:www.homefinderpk@gmail.com">www.homefinderpk@gmail.com</a></div>
+    </div>
+  </footer>  <!-- Floating WhatsApp quick contact -->  <div class="whatsapp" aria-hidden="false">
+    <a href="https://wa.me/923316196789" target="_blank" rel="noopener noreferrer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.52 3.48A11.92 11.92 0 0 0 12 .25C5.73.25.75 5.23.75 11.5c0 2.1.55 4.06 1.6 5.82L.25 23.75l6.86-1.79c1.62.88 3.47 1.33 5.64 1.33 6.27 0 11.25-4.98 11.25-11.25 0-2.99-1.17-5.72-3.28-7.56z" fill="#fff" opacity="0.05"/><path d="M20.52 3.48A11.92 11.92 0 0 0 12 .25C5.73.25.75 5.23.75 11.5c0 2.1.55 4.06 1.6 5.82L.25 23.75l6.86-1.79c1.62.88 3.47 1.33 5.64 1.33 6.27 0 11.25-4.98 11.25-11.25 0-2.99-1.17-5.72-3.28-7.56z" fill="currentColor"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div></body>
+</html>
